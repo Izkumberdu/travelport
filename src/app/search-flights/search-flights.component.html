@@ -1,0 +1,65 @@
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+<div class="backgroundimage">
+    <div class="text">
+        <h1>Fly Easy, Book Breezy</h1>
+        <h2>Your Gateway to Seamless Airport Reservations</h2>
+    </div>
+    <div class="searchContainer">
+        <div class="dropdowns">
+            <div class="typeFlight">
+                <select name="TypeFlight" id="TypeFlight">
+                    <option value="" disabled selected>Type Of Flight</option>
+                    <option value="One-way">One Way</option>
+                    <option value="Round-Trip">Round Trip</option>
+                </select>
+            </div>
+            <div class="numPassengers"> 
+                <select name="numPassengers" id="numPassengers">
+                    <option value="" disabled selected>Number Of Passengers</option>
+                    <option value="One-way">One Way</option>
+                    <option value="Round-Trip">Round Trip</option>
+                </select>
+            </div>
+
+            <div class="seatClass"> 
+                <select name="seatClass" id="seatClass">
+                    <option value="" disabled selected>Seat Class</option>
+                    <option value="Economy">Economy</option>
+                    <option value="Premium-economy">Premium Economy</option>
+                    <option value="Business">Business</option>
+                    <option value="First-class">First Class</option>
+                </select>
+            </div>
+        </div>
+        <div class="textInput">
+            <div class="from">
+                <img src="/assets/Icons/Globe.png" alt="" srcset="">
+                <label for="From">From:</label>           
+                <input type="text" name="From" id="From">
+            </div>
+            
+            <div class="Destination">
+                <img src="/assets/Icons/Plane.png" alt="" srcset="">
+                <label for="From">Destination:</label>           
+                <input type="text" name="Desination" id="Desination" >
+            </div>
+
+            <div class="DepartureDate">
+                <img src="/assets/Icons/calendar.png" alt="" srcset="">
+                <label for="From">Destination:</label>           
+                <input type="date" name="DepartureDate" id="DepartureDate">
+            </div>
+
+            <div class="ReturnDate">
+                <img src="/assets/Icons/calendar.png" alt="" srcset="">
+                <label for="From">Destination:</label>           
+                <input type="date" name="ReturnDate" id="ReturnDate">
+            </div>
+
+        </div>
+        <div class="button">
+            <button type="button">Search Available Flights</button>
+        </div>
+    </div>
+</div>

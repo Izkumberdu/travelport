@@ -35,8 +35,7 @@ h1 {
     font-family: 'Moul-Regular';
     font-size: 2rem;
     color: #254E58;
-    vertical-align: middle;
-    
+    vertical-align: middle; 
 }
 
 h2 {
@@ -55,7 +54,6 @@ ul li {
 }
 a{
     color: #908F9A;
-    padding: 7px 7px;
     border-radius: 10px;
 }
 a.active, a:hover{
