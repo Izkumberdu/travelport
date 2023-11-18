@@ -59,3 +59,9 @@ h2{
 
 align-self: center;
 }
+
+
+custom-select{
+    min-width: 136px;
+    max-width: 240px;
+}

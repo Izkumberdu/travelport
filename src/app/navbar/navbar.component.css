@@ -1,4 +1,57 @@
-* {
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+#navbarNav{
+    padding-left: 3%;   
+    padding-top: 7px;
+}
+
+.navbar-brand #logo {
+    margin-right: 5px; /* Adjust the margin as needed */
+}
+
+.navbar-brand div {
+    display: flex;
+    flex-direction: column; /* Arrange the text in a column */
+}
+
+.navbar-brand h1 {
+    font-family: 'Moul-Regular';
+    font-size: 2rem;
+    color: #254E58;
+    margin: 0;
+    display: inline-block; /* Remove default margin for the heading tag */
+}
+
+.navbar-brand h2 {
+    font-family: 'Comfortaa-Bold';
+    font-size: 14px;
+    color: #254E58;
+    margin: 0;
+    display: inline-block; /* Remove default margin for the heading tag */
+}
+
+ul li {
+    font-family: Comfortaa-Regular;
+    padding-right: 16px;
+    font-size: 1rem;
+}
+.login{
+    display: flex;
+    padding-left: 20px;
+}
+#Register{
+    background-color: #5D60EF;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* * {
     text-decoration: none;
     list-style: none;
     margin: 0;
@@ -35,7 +88,6 @@ h1 {
     font-family: 'Moul-Regular';
     font-size: 2rem;
     color: #254E58;
-    vertical-align: middle; 
 }
 
 h2 {
@@ -74,4 +126,4 @@ a.active, a:hover{
     border-radius: 10px;
     border: none;
     cursor: pointer;
-}
+} */
