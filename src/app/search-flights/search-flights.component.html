@@ -1,30 +1,29 @@
 <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 
-<div class="backgroundimage">
-    <div class="text">
+<div class="container-fluid backgroundimage p-5">
+    <div class="text text-white">
         <h1>Fly Easy, Book Breezy</h1>
         <h2>Your Gateway to Seamless Airport Reservations</h2>
     </div>
-    <div class="searchContainer">
-        <div class="dropdowns">
-            <div class="typeFlight">
-                <select name="TypeFlight" id="TypeFlight" class="custom-select">
-                    <option value="" disabled selected>Type Of Flight</option>
+    <div class="searchContainer bg-light p-4 rounded bg-opacity-50 border-1" id="searchContainer">
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <select name="TypeFlight" id="TypeFlight" class="form-select">
+                    <option value="" selected>Type Of Flight</option>
                     <option value="One-way">One Way</option>
                     <option value="Round-Trip">Round Trip</option>
                 </select>
             </div>
-            <div class="numPassengers"> 
-                <select name="numPassengers" id="numPassengers" class="custom-select">
-                    <option value="" disabled selected>Number Of Passengers</option>
+            <div class="col-md-4">
+                <select name="numPassengers" id="numPassengers" class="form-select">
+                    <option value="" selected>Number Of Passengers</option>
                     <option value="One-way">One Way</option>
                     <option value="Round-Trip">Round Trip</option>
                 </select>
             </div>
-
-            <div class="seatClass"> 
-                <select name="seatClass" id="seatClass" class="custom-select">
-                    <option value="" disabled selected>Seat Class</option>
+            <div class="col-md-4">
+                <select name="seatClass" id="seatClass" class="form-select">
+                    <option value=""selected>Seat Class</option>
                     <option value="Economy">Economy</option>
                     <option value="Premium-economy">Premium Economy</option>
                     <option value="Business">Business</option>
@@ -32,34 +31,51 @@
                 </select>
             </div>
         </div>
-        <div class="textInput">
-            <div class="from">
-                <img src="/assets/Icons/Globe.png" alt="" srcset="">
-                <label for="From">From:</label>           
-                <input type="text" name="From" id="From">
-            </div>
-            
-            <div class="Destination">
-                <img src="/assets/Icons/Plane.png" alt="" srcset="">
-                <label for="From">Destination:</label>           
-                <input type="text" name="Desination" id="Desination" >
-            </div>
 
-            <div class="DepartureDate">
-                <img src="/assets/Icons/calendar.png" alt="" srcset="">
-                <label for="From">Destination:</label>           
-                <input type="date" name="DepartureDate" id="DepartureDate">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <img src="/assets/Icons/Globe.png" alt="From Icon">
+                    </span>
+                    <label for="From" class="visually-hidden">From:</label>
+                    <input type="text" class="form-control" id="From" placeholder="From">
+                </div>
             </div>
-
-            <div class="ReturnDate">
-                <img src="/assets/Icons/calendar.png" alt="" srcset="">
-                <label for="From">Destination:</label>           
-                <input type="date" name="ReturnDate" id="ReturnDate">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <img src="/assets/Icons/Plane.png" alt="Destination Icon">
+                    </span>
+                    <label for="Destination" class="visually-hidden">Destination:</label>
+                    <input type="text" class="form-control" id="Destination" placeholder="Destination">
+                </div>
             </div>
-
         </div>
-        <div class="button">
-            <button type="button">Search Available Flights</button>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <img src="/assets/Icons/calendar.png" alt="Calendar Icon">
+                    </span>
+                    <label for="DepartureDate" class="visually-hidden">Departure Date:</label>
+                    <input type="date" class="form-control" id="DepartureDate">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <img src="/assets/Icons/calendar.png" alt="Calendar Icon">
+                    </span>
+                    <label for="ReturnDate" class="visually-hidden">Return Date:</label>
+                    <input type="date" class="form-control" id="ReturnDate">
+                </div>
+            </div>
+        </div>
+
+        <div class="button text-center">
+            <button type="button" class="btn btn-primary">Search Available Flights</button>
         </div>
     </div>
 </div>

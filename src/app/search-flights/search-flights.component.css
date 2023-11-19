@@ -44,13 +44,9 @@ h2{
     background-image: url("/assets/Icons/Globe.png");
 }
 
-.searchContainer{
-    display: flex;
-    flex-direction: column;
-    width: 1118;
+#searchContainer{
     border-radius: 15px;
     border-style: solid;
-    border-width: 1;
     background: rgba(255,255,255, 0.5);
     padding: 19px;
     align-self: center;
