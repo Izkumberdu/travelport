@@ -33,3 +33,7 @@ body{
     font-family: 'Moul-Regular';
     src: url('/assets/fonts/Moul-Regular.ttf');
 }
+@font-face {
+    font-family: 'RobotoCondensed-BlackItalic';
+    src: url('/assets/fonts/RobotoCondensed-BlackItalic.ttf');
+}
