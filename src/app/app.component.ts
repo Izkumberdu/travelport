@@ -6,13 +6,14 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { SearchFlightsComponent } from "./search-flights/search-flights.component";
 import {faGlobe} from "@fortawesome/free-solid-svg-icons"
 import { CardsComponent } from "./cards/cards.component";
+import { MapComponent } from "./map/map.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
-    imports: [CommonModule, RouterOutlet, NavbarComponent, SearchFlightsComponent, CardsComponent]
+    imports: [CommonModule, RouterOutlet, NavbarComponent, SearchFlightsComponent, CardsComponent, MapComponent]
 })
 export class AppComponent {
   title = 'Travelport';
