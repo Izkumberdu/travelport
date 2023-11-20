@@ -1,0 +1,28 @@
+@media screen and (min-width:576px) {
+    .carousel-inner{
+        display: flex;
+    }
+    /* .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    } */
+}
+h1, h2{
+    font-family: "Comfortaa-Regular";
+    }
+    h1{
+      font-size: 32;
+    }
+    h2{
+      font-size: 24;
+      color: #908F9A;
+    }
+.container{
+    margin-top: 50px;
+}
+
+/* .card{
+    height: 285px;
+    width: 243px;
+} */
