@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+
 
 body{
     background-color: #F0F2F5;

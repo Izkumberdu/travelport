@@ -1,28 +1,36 @@
-@media screen and (min-width:576px) {
-    .carousel-inner{
-        display: flex;
-    }
-    /* .carousel-item{
-        display: block;
-        margin-right: 0;
-        flex: 0 0 calc(100%/3);
-    } */
-}
-h1, h2{
+h1, h2 {
     font-family: "Comfortaa-Regular";
-    }
-    h1{
-      font-size: 32;
-    }
-    h2{
-      font-size: 24;
-      color: #908F9A;
-    }
-.container{
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #908F9A;
+}
+h5{
+font-size: 32px;
+}
+p{
+    font-size: 24px;
+}
+h5, p{
+font-family: "Moul-Regular";
+color: white;
+}
+
+.container {
     margin-top: 50px;
 }
 
-/* .card{
-    height: 285px;
-    width: 243px;
-} */
+.carousel-item img {
+    height: 30%;
+    width: 60%;
+    object-fit: cover;
+}
+#carouselExampleDark{
+height: 30%;
+width: 95%;
+}
