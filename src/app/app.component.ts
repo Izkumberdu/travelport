@@ -8,13 +8,14 @@ import {faGlobe} from "@fortawesome/free-solid-svg-icons"
 import { CardsComponent } from "./cards/cards.component";
 import { MapComponent } from "./map/map.component";
 import { CarouselComponent } from "./carousel/carousel.component";
+import { FooterComponent } from "./footer/footer.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
-    imports: [CommonModule, RouterOutlet, NavbarComponent, SearchFlightsComponent, CardsComponent, MapComponent, CarouselComponent]
+    imports: [CommonModule, RouterOutlet, NavbarComponent, SearchFlightsComponent, CardsComponent, MapComponent, CarouselComponent, FooterComponent]
 })
 export class AppComponent {
   title = 'Travelport';
