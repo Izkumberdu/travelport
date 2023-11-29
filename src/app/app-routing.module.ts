@@ -10,7 +10,6 @@ import { HomepageComponent } from './homepage/homepage.component';
 
 import { RouterModule, Routes } from '@angular/router';
 
-
 const routes: Routes = [
 {path: '', component: HomepageComponent},
 {path: 'login', component: LoginComponent}
@@ -20,6 +19,11 @@ const routes: Routes = [
   declarations: [],
   imports: [
     CommonModule
+
+    
+  ],
+  exports:[
+    [RouterModule],
   ]
 })
 export class AppRoutingModule { }
