@@ -10,13 +10,14 @@ import { MapComponent } from "./map/map.component";
 import { CarouselComponent } from "./carousel/carousel.component";
 import { FooterComponent } from "./footer/footer.component";
 import { HomepageComponent } from "./homepage/homepage.component";
+import { LoginComponent } from "./login/login.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
-    imports: [CommonModule, RouterOutlet, NavbarComponent, SearchFlightsComponent, CardsComponent, MapComponent, CarouselComponent, FooterComponent, HomepageComponent]
+    imports: [CommonModule, RouterOutlet, NavbarComponent, SearchFlightsComponent, CardsComponent, MapComponent, CarouselComponent, FooterComponent, HomepageComponent, LoginComponent]
 })
 export class AppComponent {
   title = 'Travelport';
