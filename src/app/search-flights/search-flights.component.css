@@ -1,4 +1,4 @@
-*{
+* {
     font-family: Comfortaa-Regular;
 }
 
@@ -10,54 +10,94 @@
     width: 100vw;
     height: 583px;
     padding: 100px;
-  }
-  h1 {
+}
+
+h1 {
     font-family: 'Moul-Regular';
     font-size: 48px;
     color: #254E58;
-    vertical-align: middle; 
+    vertical-align: middle;
 }
-h2{
+
+h2 {
     font-family: 'Comfortaa-Regular';
     font-size: 24px;
     color: #254E58;
 }
-.text{
+
+.text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.dropdowns{
-    display: flex;
-}
-.typeFlight,
-.numPassengers,
-.seatClass {
-  margin-right: 24px;
-}
-.textInput{
+.dropdowns {
     display: flex;
 }
 
-.from-icon{
+
+
+.textInput {
+    display: flex;
+}
+
+.from-icon {
     background-image: url("/assets/Icons/Globe.png");
 }
 
-#searchContainer{
+#searchContainer {
     border-radius: 15px;
     border-style: solid;
-    background: rgba(255,255,255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
     padding: 19px;
     align-self: center;
 }
-.button{
 
-align-self: center;
+.button {
+
+    align-self: center;
 }
 
 
-custom-select{
-    min-width: 136px;
-    max-width: 240px;
+.form-select {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.form-select:hover {
+    background-color: #f8f9fa;
+}
+
+.form-select option {
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #6c757d;
+}
+
+.input-group {
+    height: 75px;
+    background-color: #EDEDED;
+}
+
+.input-group-text+input,
+span {
+    background-color: #EDEDED;
+    border-radius: 15px;
+}
+
+.return-date-container {
+    display: none;
+}
+
+.form-floating>.form-control,
+.form-floating>.form-control-plaintext,
+.form-floating>.form-select {
+    background-color: #EDEDED;
+    width: 90%;
+    height: 100%;
 }
